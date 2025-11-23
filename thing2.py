@@ -17,7 +17,7 @@ pygame.init()
 
 
 from PIL import Image
-im = Image.open(r"C:\Users\sonih\Downloads\image\img.png")
+im = Image.open(r"img.png")
 px = im.load()
 print(px[0, 0])
 w, h = im.size
